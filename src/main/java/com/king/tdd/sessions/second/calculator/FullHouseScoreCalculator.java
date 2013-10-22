@@ -1,4 +1,4 @@
-package com.king.tdd.calculator;
+package com.king.tdd.sessions.second.calculator;
 
 import org.apache.commons.lang3.ArrayUtils;
 
@@ -24,9 +24,9 @@ public class FullHouseScoreCalculator implements ScoreCalculator {
         });
 
         int threeOfAKindScore = 0;
-        for(int i = 2 ; i < rollCopy.length ; ++i) {
-            if(rollCopy[i] == rollCopy[i - 2]) {
-                if(threeOfAKindScore == 0) {
+        for (int i = 2; i < rollCopy.length; ++i) {
+            if (rollCopy[i] == rollCopy[i - 2]) {
+                if (threeOfAKindScore == 0) {
                     threeOfAKindScore = 3 * rollCopy[i];
                 } else {
                     threeOfAKindScore = 0;
@@ -34,14 +34,14 @@ public class FullHouseScoreCalculator implements ScoreCalculator {
             }
         }
 
-        if(threeOfAKindScore == 0) {
+        if (threeOfAKindScore == 0) {
             return 0;
         }
 
         int pairScore = 0;
-        for(int i = 1 ; i < rollCopy.length ; ++i) {
-            if(rollCopy[i] == rollCopy[i - 1]) {
-                if(pairScore == 0) {
+        for (int i = 1; i < rollCopy.length; ++i) {
+            if (rollCopy[i] == rollCopy[i - 1]) {
+                if (pairScore == 0) {
                     pairScore = 2 * rollCopy[i];
                 } else {
                     pairScore = 0;

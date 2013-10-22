@@ -1,4 +1,4 @@
-package com.king.tdd.calculator;
+package com.king.tdd.sessions.second.calculator;
 
 /**
  * Created with IntelliJ IDEA.

@@ -1,6 +1,6 @@
-package com.king.tdd;
+package com.king.tdd.sessions.second;
 
-import com.king.tdd.calculator.*;
+import com.king.tdd.sessions.second.calculator.*;
 
 /**
  * Created with IntelliJ IDEA.

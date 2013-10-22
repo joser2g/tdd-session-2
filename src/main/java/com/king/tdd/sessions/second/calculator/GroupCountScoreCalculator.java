@@ -1,4 +1,4 @@
-package com.king.tdd.calculator;
+package com.king.tdd.sessions.second.calculator;
 
 import org.apache.commons.lang3.ArrayUtils;
 
@@ -30,8 +30,8 @@ public class GroupCountScoreCalculator implements ScoreCalculator {
             }
         });
 
-        for(int i = groupSize - 1 ; i < rollCopy.length ; ++i) {
-            if(rollCopy[i] == rollCopy[i - groupSize + 1]) {
+        for (int i = groupSize - 1; i < rollCopy.length; ++i) {
+            if (rollCopy[i] == rollCopy[i - groupSize + 1]) {
                 return rollCopy[i] * groupSize;
             }
         }

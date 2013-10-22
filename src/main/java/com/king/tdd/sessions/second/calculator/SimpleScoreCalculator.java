@@ -1,4 +1,4 @@
-package com.king.tdd.calculator;
+package com.king.tdd.sessions.second.calculator;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,8 +17,8 @@ public class SimpleScoreCalculator implements ScoreCalculator {
     @Override
     public int getScore(final int[] roll) {
         int score = 0;
-        for(int diceValue : roll) {
-            if(diceValue == increment) {
+        for (int diceValue : roll) {
+            if (diceValue == increment) {
                 score += increment;
             }
         }

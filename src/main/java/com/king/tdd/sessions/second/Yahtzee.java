@@ -1,4 +1,4 @@
-package com.king.tdd;
+package com.king.tdd.sessions.second;
 
 /**
  * Created with IntelliJ IDEA.

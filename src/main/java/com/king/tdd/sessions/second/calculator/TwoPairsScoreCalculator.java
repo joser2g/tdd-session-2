@@ -1,4 +1,4 @@
-package com.king.tdd.calculator;
+package com.king.tdd.sessions.second.calculator;
 
 import org.apache.commons.lang3.ArrayUtils;
 
@@ -25,10 +25,10 @@ public class TwoPairsScoreCalculator implements ScoreCalculator {
 
         boolean firstPairAlreadyFound = false;
         int score = 0;
-        for(int i = 1 ; i < rollCopy.length ; ++i) {
-            if(rollCopy[i] == rollCopy[i - 1]) {
+        for (int i = 1; i < rollCopy.length; ++i) {
+            if (rollCopy[i] == rollCopy[i - 1]) {
                 score += 2 * rollCopy[i];
-                if(firstPairAlreadyFound) {
+                if (firstPairAlreadyFound) {
                     return score;
                 }
                 firstPairAlreadyFound = true;
