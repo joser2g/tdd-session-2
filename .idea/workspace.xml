@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece66df4-326d-400c-92eb-76389c638b26" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/Yahtzee.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/Yahtzee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/ChanceScoreCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/ChanceScoreCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/FullHouseScoreCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/FullHouseScoreCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/GroupCountScoreCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/GroupCountScoreCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/ScoreCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/ScoreCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/SimpleScoreCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/SimpleScoreCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/StrightScoreCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/StrightScoreCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/TwoPairsScoreCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/TwoPairsScoreCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/YahtzeeScoreCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/YahtzeeScoreCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/king/tdd/YahtzeeTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/second/YahtzeeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/bank/BankA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/adapter/BankPaymentAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/adapter/BankPaymentAdapterA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/third/BankPaymentAdapterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentSystemProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentSystemProviderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/third/PaymentSystemProviderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tdd-session-2.iml" afterPath="$PROJECT_DIR$/tdd-session-2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tdd-session-2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/KataYahtzee.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1380730884837" ignored="false" />
     <file path="/KataYahtzeeTest.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1380806148307" ignored="false" />
-    <file path="/build.gradle" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382460550193" ignored="false" />
-    <file path="/fragment.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382461121578" ignored="false" />
+    <file path="/build.gradle" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382536069938" ignored="false" />
+    <file path="/fragment.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382533504295" ignored="false" />
     <file path="/Yahtzee.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1380807600426" ignored="false" />
     <file path="/YahtzeeTest.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1380813411403" ignored="false" />
     <file path="/Category.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1380813482605" ignored="false" />
@@ -34,7 +34,13 @@
     <file path="/ChanceScoreCalculator.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1380812790803" ignored="false" />
     <file path="/SmallStrightScoreCalculator.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1380813362622" ignored="false" />
     <file path="/FullHouseScoreCalculator.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1380815112512" ignored="false" />
-    <file path="/Dummy.txt" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382460654968" ignored="false" />
+    <file path="/Dummy.txt" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382461272798" ignored="false" />
+    <file path="/PaymentSystemProvider.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382534930899" ignored="false" />
+    <file path="/PaymentResult.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382532923838" ignored="false" />
+    <file path="/PaymentRequest.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382533365521" ignored="false" />
+    <file path="/PaymentSystemProviderTest.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382536595309" ignored="false" />
+    <file path="/PaymentSystemProviderImpl.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382535681936" ignored="false" />
+    <file path="/BankPaymentAdapterA.java" changelist="ece66df4-326d-400c-92eb-76389c638b26" time="1382534788143" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +101,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="YahtzeeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/second/YahtzeeTest.java">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+            <state line="14" column="32" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentSystemProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentSystemProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentSystemProviderTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/third/PaymentSystemProviderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="404" selection-end="404" vertical-scroll-proportion="0.33174226">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#643#671#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankPaymentAdapterTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/third/BankPaymentAdapterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentSystemProviderImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentSystemProviderImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="49" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,10 +151,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="BankPaymentAdapterA.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/adapter/BankPaymentAdapterA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.27149323">
+            <state line="10" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankA.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/bank/BankA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="23" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankPaymentAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/adapter/BankPaymentAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="24" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentRequest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="38" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentResult.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="23" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,22 +287,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/ScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/SimpleScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/PairsScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/ThreeOfAKindScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/ThreeOfAKindScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/TwoPairsScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/YahtzeeScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/GroupCountScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/ChanceScoreCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/SmallStrightScoreCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/StrightScoreCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/calculator/FullHouseScoreCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/king/tdd/YahtzeeTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/second/YahtzeeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/bank/BankA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/adapter/BankPaymentAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/adapter/BankPaymentAdapterA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentSystemProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentSystemProviderImpl.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/third/BankPaymentAdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/third/PaymentSystemProviderTest.java" />
       </list>
     </option>
   </component>
@@ -242,14 +327,14 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
+      <flattenPackages ProjectPane="true" />
       <showMembers />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
@@ -313,19 +398,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="king" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
+              <option name="myItemId" value="third" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,23 +424,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="king" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd-session-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd-session-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,19 +490,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
+              <option name="myItemId" value="bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd-session-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd-session-2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="king" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tdd" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd-session-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd-session-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="third" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd-session-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd-session-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,24 +576,28 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.king.tdd.sessions.third" />
       <recent name="com.king.tdd.calculator" />
       <recent name="com.king.tdd" />
     </key>
@@ -462,7 +607,7 @@
       <recent name="com.king.tdd.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.YahtzeeTest">
+  <component name="RunManager" selected="JUnit.PaymentSystemProviderTest">
     <configuration default="false" name="YahtzeeTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="tdd-session-2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -557,6 +702,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="PaymentSystemProviderTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="tdd-session-2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.king.tdd.sessions.third" />
+      <option name="MAIN_CLASS_NAME" value="com.king.tdd.sessions.third.PaymentSystemProviderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -645,18 +812,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.YahtzeeTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.initializedCorrectly" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.onesRollWithNoOnesScoresZero" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.fullHouseRollScoringWorks" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PaymentSystemProviderTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.YahtzeeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.fullHouseRollScoringWorks" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.onesRollWithNoOnesScoresZero" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.initializedCorrectly" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PaymentSystemProviderTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.YahtzeeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.fullHouseRollScoringWorks" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.onesRollWithNoOnesScoresZero" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.YahtzeeTest.initializedCorrectly" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -692,7 +861,11 @@
       <created>1382460715250</created>
       <updated>1382460715250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updating package structure to include more sessions in the same project...">
+      <created>1382461281412</created>
+      <updated>1382461281412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -705,14 +878,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28499642" sideWeight="0.28673324" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26130652" sideWeight="0.6704708" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28499642" sideWeight="0.6704708" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -763,7 +936,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating package structure to include more sessions in the same project..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -778,6 +951,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="updating" />
+    <MESSAGE value="updating package structure to include more sessions in the same project..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -787,60 +961,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.hamcrest/hamcrest-core/1.3/source/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="716" selection-end="716" vertical-scroll-proportion="0.35520363" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/ScoreCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="234" selection-end="240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_45-b06-451.jdk/Contents/Home/src.jar!/src/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="23" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.42243436" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_45-b06-451.jdk/Contents/Home/src.jar!/src/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="17" selection-start="3783" selection-end="3783" vertical-scroll-proportion="-0.61764705" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/YahtzeeScoreCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="199" selection-end="221" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/SimpleScoreCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="435" selection-end="617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/ChanceScoreCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.5090498">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/StrightScoreCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="1" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#620#791#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/GroupCountScoreCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="858" selection-end="919" vertical-scroll-proportion="0.0">
@@ -866,13 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/Yahtzee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/calculator/FullHouseScoreCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="63" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
@@ -880,19 +993,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/second/Yahtzee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/second/YahtzeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="38" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/bank/BankA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/adapter/BankPaymentAdapterA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentSystemProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.27149323">
+        <state line="14" column="32" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/PaymentSystemProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="49" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/tdd/sessions/third/adapter/BankPaymentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/third/BankPaymentAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/king/tdd/sessions/third/PaymentSystemProviderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="404" selection-end="404" vertical-scroll-proportion="0.33174226">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#671#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -936,6 +1128,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -952,7 +1145,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
