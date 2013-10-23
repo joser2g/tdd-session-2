@@ -14,7 +14,7 @@ public class PaymentRequest {
 
     private int ccExpiryMonth;
 
-    private int getCcExpiryYear;
+    private int ccExpiryYear;
 
     private int ccCvv;
 
@@ -76,12 +76,12 @@ public class PaymentRequest {
         this.ccExpiryMonth = ccExpiryMonth;
     }
 
-    public int getGetCcExpiryYear() {
-        return getCcExpiryYear;
+    public int getCcExpiryYear() {
+        return ccExpiryYear;
     }
 
-    public void setGetCcExpiryYear(int getCcExpiryYear) {
-        this.getCcExpiryYear = getCcExpiryYear;
+    public void setCcExpiryYear(int ccExpiryYear) {
+        this.ccExpiryYear = ccExpiryYear;
     }
 
     public int getCcCvv() {

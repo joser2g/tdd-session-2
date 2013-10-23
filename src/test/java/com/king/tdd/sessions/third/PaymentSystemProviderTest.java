@@ -15,7 +15,6 @@ public class PaymentSystemProviderTest {
 
     private PaymentSystemProvider paymentSystemProvider;
 
-
     @Mock
     private BankPaymentAdapter adapter;
 
@@ -31,10 +30,11 @@ public class PaymentSystemProviderTest {
         PaymentRequest request = new PaymentRequest();
         PaymentResult result = paymentSystemProvider.processPayment(request);
         assertTrue(result.getSuccess() == 0);
+        assertTrue(result.getErrorMessage().compareTo("adapter doesn't exist") == 0);
     }
 
     @Test
-    public void paymentBankAOkf() {
+    public void paymentBankAOk() {
         PaymentRequest request = new PaymentRequest();
         request.setCcType("VISA");
         PaymentResult result = paymentSystemProvider.processPayment(request);
